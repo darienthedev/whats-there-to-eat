@@ -1,6 +1,6 @@
 const DishCard = ({ dish }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="bg-white rounded-lg shadow-md shadow-rose-900/10 overflow-hidden">
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2 text-gray-800">{dish.name}</h2>
         <p className="text-gray-600 mb-2">{dish.description}</p>
@@ -8,7 +8,7 @@ const DishCard = ({ dish }) => {
           {dish.tags.map((tag, tagIndex) => (
             <span
               key={tagIndex}
-              className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full mr-1"
+              className="bg-rose-100 text-rose-800  text-sm px-2.5 py-1 rounded-full mr-1"
             >
               #{tag}
             </span>

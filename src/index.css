@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+:root {
+  --color-primary: #cc363d;
+  --color-secondary: #f08d98;
+  --color-accent: #fd4e61;
+  --color-background: #fcf9f9;
+  --color-text: #171111;
+}
+
+.gradient-text {
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-secondary),
+    var(--color-primary)
+  );
+  background-clip: text;
+  color: transparent;
+}
