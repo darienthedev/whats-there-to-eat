@@ -66,6 +66,12 @@ function App() {
             </div>
           )}
         </main>
+        <footer>
+          <hr className="border-rose-800/60 mt-8" />
+          <div className="text-center my-4 text-rose-800/60 italic">
+            Made by Darien with 🧋 May 2025
+          </div>
+        </footer>
       </div>
     </div>
   );

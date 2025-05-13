@@ -8,7 +8,7 @@ Built for myself to practice React, Tailwind CSS, and Vite.
 - **React** -- version 19; UI library
 - **Vite** -- version 6; fast dev server and build tool
 - **Tailwind CSS** -- version 4; utility-first CSS framework
-- **Additional Tools** -- Linux Mint, VS Code
+- **Additional Tools** -- Linux Mint, VS Code, Realtime Colors (https://www.realtimecolors.com/)
 
 ## 🔍 Features
 
