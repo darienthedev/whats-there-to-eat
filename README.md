@@ -3,6 +3,8 @@
 A simple React web app that displays a list of home-cooked/prepped dishes and allows the user to search through them via text input.
 Built for myself to practice React, Tailwind CSS, and Vite.
 
+View live site here: https://darienthedev.github.io/whats-there-to-eat/
+
 ## 🛠️ Built With
 
 - **React** -- version 19; UI library
@@ -32,5 +34,5 @@ This project was created for personal practice to get more comfortable with the 
 
 ## 📝 Note
 
-Speical thanks to my wife, my biggest supporter, and who inspired me to create this project.
+Speical thanks to my wife, my biggest supporter, and whom I created this for.
 Built in May 2025.
