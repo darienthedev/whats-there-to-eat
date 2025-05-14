@@ -42,6 +42,9 @@ function App() {
               onChange={(e) => setSearchQuery(e.target.value)}
             />
           </div>
+          <div className="italic text-rose-800/60 my-1">
+            showing {dishes.length} dishes
+          </div>
         </header>
         <main>
           {dishes.length > 0 ? (
