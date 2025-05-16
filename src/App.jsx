@@ -24,10 +24,10 @@ function App() {
   }, [searchQuery]);
 
   return (
-    <div className="min-h-screen py-8 px-4 bg-[#f4ebeb]">
+    <div className="min-h-screen py-8 px-4 bg-[#fff1f1]">
       <div className="max-w-6xl mx-auto">
         <header className="mb-8 text-center">
-          <h1 className="text-5xl font-bold mb-2 font-serif">
+          <h1 className="text-5xl font-bold mb-2 font-serif text-stone-700">
             What's There to <span className="gradient-text">Eat</span>?
           </h1>
           <h5 className="text-2xl mb-6 italic">
@@ -42,7 +42,7 @@ function App() {
               onChange={(e) => setSearchQuery(e.target.value)}
             />
           </div>
-          <div className="italic text-rose-800/60 my-1">
+          <div className="italic text-stone-700 my-1">
             showing {dishes.length} dishes
           </div>
         </header>
